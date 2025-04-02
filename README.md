@@ -13,10 +13,10 @@
 ## Struktura opinii w serwisie Ceneo.pl
 |składowa|zmienna|selektor|
 |--------|-------|--------|
-|opinia|review|div.js_product-review|
+|opinia|review|div.js_product-review:not(.user-post--highlight)|
 |identyfikator opinii|review_id|['data-entry-id']|
 |autor|author|span.user-post__author-name|
-|rekomendacja|recommend|span.user-post__author-recomendation > em|
+|rekomendacja|recommendation|span.user-post__author-recomendation > em|
 |liczbę gwiazdek|stars|span.user-post__score-count|
 |treść opinii|content|div.user-post__text|
 |listę zalet|pros|div.review-feature__item--positive|
